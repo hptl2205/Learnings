@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <title>calculator</title>
+  <link rel="stylesheet" href="./library/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/main1.css" />
+</head>
+<body>
+  <div class="Heading">
+    <div class="container">
+      <div class="row">
+        <h1>Calculator</h1>
+      </div>
+    </div>
+  </div>
+<div class="Calculator">
+  <form Name="cl">
+    <input type=text class="screen"><br></br>
+      <input type=button value="0" OnClick="cl.screen.value+='0'">
+      <input type=button value="1" OnClick="cl.screen.value+='1'">
+      <input type=button value="2" OnClick="cl.screen.value+='2'">
+      <input type=button value="+" OnClick="cl.screen.value+='+'"><br></br>
+      <input type=button value="3" OnClick="cl.screen.value+='3'">
+      <input type=button value="4" OnClick="cl.screen.value+='4'">
+      <input type=button value="5" OnClick="cl.screen.value+='5'">
+      <input type=button value="-" OnClick="cl.screen.value+='-'"><br></br>
+      <input type=button value="6" OnClick="cl.screen.value+='6'">
+      <input type=button value="7" OnClick="cl.screen.value+='7'">
+      <input type=button value="8" OnClick="cl.screen.value+='8'">
+      <input type=button value="x" OnClick="cl.screen.value+='*'"><br></br>
+      <input type=button value="9" OnClick="cl.screen.value+='9'">
+      <input type=button value="C" OnClick="cl.screen.value=''">
+      <input type=button value="=" OnClick="cl.screen.value=eval(cl.screen.value)">
+      <input type=button value="/" OnClick="cl.screen.value+='/'"><br></br>
+  </form>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hardik</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./main.html">Home</a></li>
+        <li><a href="./profile.html">Profile</a></li>
+        <li><a href="./calculator.html">calculator</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</body>
+</html>

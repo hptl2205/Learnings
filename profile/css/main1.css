@@ -1,0 +1,14 @@
+.Heading{
+	background-color: #000555;
+	text-align: center;
+	color:#5ff000;
+}
+.Calculator{
+	text-align: center;
+	background-color: #5ff000;
+	color: #000555;
+	padding-top: 50px;
+}
+.Calculator .screen{
+	width:150px;
+}
